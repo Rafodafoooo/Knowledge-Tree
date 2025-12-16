@@ -50,8 +50,8 @@ Cover: Images/ACA_O.jpg
 - Geographic distribution: Eastern and central United States; extends into the Midwest and Southeast
 
 ## Similar Species
-- [[Acalypha rhomboidea]]
-- [[Acalypha virginica]]
+- [[Acalypha Rhomboidea]]
+- [[Acalypha Virginica]]
 
 ## Notes
 - Commonly called the Three-Seeded Mercury or Hophornbeam copperleaf

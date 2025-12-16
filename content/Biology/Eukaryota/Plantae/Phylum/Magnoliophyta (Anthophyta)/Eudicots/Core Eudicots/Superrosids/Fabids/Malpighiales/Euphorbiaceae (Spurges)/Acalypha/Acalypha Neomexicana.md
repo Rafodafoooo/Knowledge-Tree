@@ -50,8 +50,8 @@ Cover: Images/ACA_NM.jpg
 - Geographic distribution: Southwestern United States (especially New Mexico, Arizona, west Texas) and adjacent northern Mexico
 
 ## Similar Species
-- [[Acalypha rhomboidea]]
-- [[Acalypha ostryifolia]]
+- [[Acalypha Rhomboidea]]
+- [[Acalypha Ostryifolia]]
 
 ## Notes
 - Name literally means New Mexico Copperleaf
