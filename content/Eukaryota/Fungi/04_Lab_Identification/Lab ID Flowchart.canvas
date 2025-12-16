@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"8420a6fb30569b2e","x":-140,"y":-420,"width":250,"height":60,"color":"1","type":"text","text":"Start: Fungal Organism Seen"},
+		{"id":"0896f067250ebe0b","x":-140,"y":-290,"width":250,"height":60,"color":"2","type":"text","text":"Mold"},
+		{"id":"4ab9fc08c6d481ee","x":-840,"y":-290,"width":250,"height":60,"color":"2","type":"text","text":"Yeast"},
+		{"id":"1069b298c9a4844f","x":-840,"y":-180,"width":250,"height":60,"color":"3","type":"text","text":"Encapsulated?"},
+		{"id":"19cd246808a80710","x":-1040,"y":-70,"width":250,"height":60,"color":"4","type":"text","text":"\t\t\t\t\t\tYes"},
+		{"id":"f8bc31f166fc065c","x":-640,"y":-70,"width":250,"height":60,"color":"4","type":"text","text":"\t\t\t\t\t    No\t\t\t"},
+		{"id":"7cfddcd6a26e6d58","x":-1040,"y":100,"width":250,"height":60,"color":"5","type":"text","text":"[[Cryptococcus Neoformans]]"},
+		{"id":"901355dc40fd5f49","x":-640,"y":100,"width":250,"height":60,"color":"3","type":"text","text":"Germ Tube Positive?"},
+		{"id":"a95264172a1bea2e","x":-640,"y":240,"width":250,"height":60,"color":"5","type":"text","text":"[[Candida Albicans]]"},
+		{"id":"6ff57ee3c25953b1","x":-140,"y":-180,"width":250,"height":60,"color":"3","type":"text","text":"Septate Hyphae?"},
+		{"id":"d6c12cb5ab30d846","x":-340,"y":-70,"width":250,"height":60,"color":"3","type":"text","text":"Acute-Angle Branching?"},
+		{"id":"552bc1ed48cbf7eb","x":60,"y":-70,"width":250,"height":60,"color":"3","type":"text","text":"Broad, Non-Septate Hyphae?"},
+		{"id":"3b970dcbebb59398","x":520,"y":-290,"width":250,"height":60,"color":"2","type":"text","text":"Dimorphic (Temp-Dependent)"},
+		{"id":"32e539d69e528da1","x":-340,"y":100,"width":250,"height":60,"color":"5","type":"text","text":"[[Aspergillus Fumigatus]]"},
+		{"id":"d25ae3aa85e99f32","x":60,"y":100,"width":250,"height":60,"color":"5","type":"text","text":"[[Mucorales]]"},
+		{"id":"531cc07743a4997c","x":520,"y":-180,"width":250,"height":60,"color":"3","type":"text","text":"Soil + Bird/Bat Droppings?"},
+		{"id":"a995c45a35e18a0c","x":520,"y":-70,"width":250,"height":60,"color":"5","type":"text","text":"[[Histoplasma capsulatum]]"}
+	],
+	"edges":[
+		{"id":"764bd1d468b7fb67","fromNode":"8420a6fb30569b2e","fromSide":"left","toNode":"4ab9fc08c6d481ee","toSide":"top"},
+		{"id":"fed026e07684022e","fromNode":"8420a6fb30569b2e","fromSide":"bottom","toNode":"0896f067250ebe0b","toSide":"top"},
+		{"id":"51bc1b062de1ca44","fromNode":"8420a6fb30569b2e","fromSide":"right","toNode":"3b970dcbebb59398","toSide":"top"},
+		{"id":"7447e0f7ea900a52","fromNode":"4ab9fc08c6d481ee","fromSide":"bottom","toNode":"1069b298c9a4844f","toSide":"top"},
+		{"id":"9dbfc59f566ba4b6","fromNode":"1069b298c9a4844f","fromSide":"left","toNode":"19cd246808a80710","toSide":"top"},
+		{"id":"022a9acf88755530","fromNode":"1069b298c9a4844f","fromSide":"right","toNode":"f8bc31f166fc065c","toSide":"top"},
+		{"id":"85952b596374efba","fromNode":"19cd246808a80710","fromSide":"bottom","toNode":"7cfddcd6a26e6d58","toSide":"top"},
+		{"id":"b01c777f39560ec4","fromNode":"f8bc31f166fc065c","fromSide":"bottom","toNode":"901355dc40fd5f49","toSide":"top"},
+		{"id":"d247967efc7e426c","fromNode":"901355dc40fd5f49","fromSide":"bottom","toNode":"a95264172a1bea2e","toSide":"top"},
+		{"id":"32ad4d1b35ae1ac2","fromNode":"0896f067250ebe0b","fromSide":"bottom","toNode":"6ff57ee3c25953b1","toSide":"top"},
+		{"id":"6d79e654e4c1cd1a","fromNode":"6ff57ee3c25953b1","fromSide":"left","toNode":"d6c12cb5ab30d846","toSide":"top"},
+		{"id":"ff91346dec945a65","fromNode":"6ff57ee3c25953b1","fromSide":"right","toNode":"552bc1ed48cbf7eb","toSide":"top"},
+		{"id":"93116efc19cd6293","fromNode":"d6c12cb5ab30d846","fromSide":"bottom","toNode":"32e539d69e528da1","toSide":"top"},
+		{"id":"fb33b52fb6cf728b","fromNode":"552bc1ed48cbf7eb","fromSide":"bottom","toNode":"d25ae3aa85e99f32","toSide":"top"},
+		{"id":"d00554cf0fd2cc82","fromNode":"3b970dcbebb59398","fromSide":"bottom","toNode":"531cc07743a4997c","toSide":"top"},
+		{"id":"520e774dfcfa8bef","fromNode":"531cc07743a4997c","fromSide":"bottom","toNode":"a995c45a35e18a0c","toSide":"top"}
+	]
+}

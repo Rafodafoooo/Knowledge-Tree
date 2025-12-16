@@ -1,0 +1,21 @@
+filters:
+  and:
+    - type == "species"
+views:
+  - type: cards
+    name: Species
+    order:
+      - file.name
+      - Biosafety
+      - Diseases
+      - Morphology
+      - Phylum
+      - aliases
+    image: note.Cover
+    cardSize: 190
+    imageAspectRatio: 1.05
+  - type: table
+    name: Table
+    filters:
+      and:
+        - type == "species"
