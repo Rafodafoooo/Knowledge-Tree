@@ -1,6 +1,0 @@
-[[Chytridiomycota]]
-[[Zygomycota]]
-[[Ascomycota]]
-[[Basidiomycota]]
-[[Glomeromycota]]
-[[Deuteromycota]]
