@@ -1,0 +1,77 @@
+/* Knowledge Tree homepage blocks
+   Uses Quartz theme variables, so it automatically matches light/dark mode. */
+
+.kt-hero {
+  border: 1px solid var(--lightgray);
+  border-radius: 20px;
+  padding: 28px;
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--light) 92%, var(--secondary) 8%),
+    var(--light)
+  );
+  box-shadow: 0 12px 30px rgba(0,0,0,0.10);
+  margin-bottom: 22px;
+}
+
+.kt-hero-inner { max-width: 68ch; }
+
+.kt-kicker {
+  margin: 0 0 10px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  color: var(--secondary);
+}
+
+.kt-title {
+  margin: 0 0 10px;
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  line-height: 1.15;
+  color: var(--dark);
+}
+
+.kt-subtitle {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--gray);
+}
+
+.kt-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.kt-card {
+  display: block;
+  text-decoration: none;
+  border: 1px solid var(--lightgray);
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--light);
+  transition: transform 120ms ease, border-color 120ms ease;
+}
+
+.kt-card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--secondary) 35%, var(--lightgray));
+}
+
+.kt-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+}
+
+.kt-card-label {
+  padding: 10px 12px 12px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+@media (max-width: 900px) {
+  .kt-grid { grid-template-columns: 1fr; }
+  .kt-card img { height: 180px; }
+}
